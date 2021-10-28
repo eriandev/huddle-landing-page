@@ -8,9 +8,6 @@ module.exports = {
       padding: '1rem',
     },
     extend: {
-      screens: {
-        'xs': '360px'
-      },
       fontFamily: {
         poppins: ['Poppins', ...defaultTheme.fontFamily.mono],
         opensans: ['Open Sans', ...defaultTheme.fontFamily.sans],
