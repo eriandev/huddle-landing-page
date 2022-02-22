@@ -1,5 +1,6 @@
-@tailwind base;
-@tailwind components;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 :root {
   font-size: 18px;
@@ -434,5 +435,3 @@ body {
     @apply pr-24;
   }
 }
-
-@tailwind utilities;

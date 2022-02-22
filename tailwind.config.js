@@ -1,7 +1,7 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const { fontFamily } = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  purge: ['./**/*.html'],
+  content: ['./**/*.html'],
   theme: {
     container: {
       center: true,
@@ -9,8 +9,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        poppins: ['Poppins', ...defaultTheme.fontFamily.mono],
-        opensans: ['Open Sans', ...defaultTheme.fontFamily.sans],
+        poppins: ['Poppins', ...fontFamily.mono],
+        opensans: ['Open Sans', ...fontFamily.sans],
       },
       fontSize: {
         '2xs': '.55rem',
@@ -28,6 +28,4 @@ module.exports = {
       }
     },
   },
-  variants: {},
-  plugins: []
 }
